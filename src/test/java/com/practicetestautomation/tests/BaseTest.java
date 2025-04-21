@@ -40,5 +40,6 @@ public class BaseTest {
     public void tearDown() {
         driver.quit();
         logger.info("Browser is closed");
+        System.out.println("1");
     }
 }
